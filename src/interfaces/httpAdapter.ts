@@ -1,3 +1,3 @@
 export interface httpAdapter {
-  getRequest<T>(ud: number): Promise<T>;
+  getRequest<T>(id: number): Promise<T>;
 }
